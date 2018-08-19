@@ -1,0 +1,68 @@
+#nav-bar{
+  padding-bottom: 4px;
+  width: 70%;
+}
+#giuliosLogo{
+  /* width: 20%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topShelfLounge{
+  white-space: nowrap;
+}
+
+.navbar{
+  /* top: -50px; */
+}
+
+.style{
+  font-family: 'Open Sans', sans-serif;
+}
+.title{
+  margin-top:1%;
+  text-shadow: 2px 3px gainsboro;
+}
+
+.test{
+  color:blue;
+}
+
+.information{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.border{
+  border-top: solid;
+  border-top-color: #dededf;
+  border-bottom: solid;
+  border-bottom-color: #dededf;
+}
+
+.border-top{
+  border-top: solid;
+  border-top-color: gainsboro;
+}
+
+.parallax-container{
+  height: 300px !important;
+}
+
+.page-footer{
+  background-color: #ffffff !important;
+}
+
+.vertical-align{
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.item{
+  display: table-cell !important;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 16px;
+}
