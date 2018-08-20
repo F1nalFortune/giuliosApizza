@@ -9,6 +9,7 @@ class NavBar extends Component {
   render() {
     return (
 <div>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
 
       <div id="nav-bar" className='ui container'>
         <div className='ui grid'>

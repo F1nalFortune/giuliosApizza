@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Button, Form, Segment, Header } from 'semantic-ui-react';
 import { handleRegister} from '../actions/auth';
 import { connect } from 'react-redux';
-import { Parallax } from 'react-materialize';
-import { Footer } from 'react-materialize';
+
 
 class Register extends Component {
   state = { email: '', password: '', passwordConfirmation: '' }
@@ -73,25 +72,7 @@ class Register extends Component {
       </Segment>
     </div>
   </div>
-    <Parallax className="border" imageSrc="http://i1028.photobucket.com/albums/y348/f1nalfortune/home_zpszwzbua01.jpg" strength={400}>
-    </Parallax>
-    <Footer 
-      copyrights={ <i className="fa fa-copyright" aria-hidden="true">BananaBoltProductions</i>}
-      className='footer-override'
-    >
-      <div className="col s3 m3 l3 center bold">
-        <a className="bold footer-link" href="/">Home</a>
-      </div>
-      <div className="col s3 m3 l3 center">
-        <a className="bold footer-link" href="/Game">Game</a>
-      </div>
-      <div className="col s3 m3 l3 center">
-        <a className="bold footer-link" href="/Ladder">Ladder</a>
-      </div>
-      <div className="col s3 m3 l3 center">
-        <a className="bold footer-link" href="/About">About</a>
-      </div>
-    </Footer>
+
   </div>
     )
   }
