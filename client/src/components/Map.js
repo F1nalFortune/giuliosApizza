@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import one from './one.jpg';
 
+const AnyReactComponent = ({ text }) => (
+  <div style={{
+    color: 'white',
+    padding: '15px 10px',
+    display: 'inline-flex',
+    textAlign: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: '100%',
+    transform: 'translate(-50%, -50%)'
+  }}>
+    <img src={one} alt="Logo" />
+  </div>
+);
 
 class Map extends Component {
   static defaultProps = {
@@ -31,7 +46,11 @@ class Map extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-
+          <AnyReactComponent
+            lat={41.341431}
+            lng={-72.862487}
+            img_src={this.props.marker.img_src}
+          />
         </GoogleMapReact>
       </div>
     );
