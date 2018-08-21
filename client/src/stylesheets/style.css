@@ -32,7 +32,7 @@ body{
 
 
 .center{
-  text-align: center;
+  text-align: center !important;
 }
 
 .navbar{
@@ -45,6 +45,19 @@ body{
 .title{
   margin-top:1%;
   text-shadow: 2px 3px gainsboro;
+}
+
+.pizza-size{
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.pizza-price{
+  padding-top: 0 !important;
+}
+
+.nowrap{
+  white-space: nowrap;
 }
 
 .test{
@@ -106,16 +119,33 @@ body{
   background-color: #e1ca86e3;
 }
 
+#grubIcon{
+  width: 60px;
+  height: 60px;
+}
+
 .footer-link{
   padding: 0% 5% 5% 5%;
+  color: black;
+}
+
+.footer-link:hover{
+  color:#ab0d12;
 }
 
 .footer-icon{
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 10px;
 }
 
 .foot{
-  height: 75px;
+  height: 80px;
   padding-top: 1% !important;
+}
+
+.menu-item{
+  margin-bottom: 1%;
+}
+
+.menu-price{
+  margin-bottom: 2%;
 }
