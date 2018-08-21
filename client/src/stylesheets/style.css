@@ -1,3 +1,7 @@
+body{
+  background: #e1ca86;
+}
+
 #nav-bar{
   padding-bottom: 4px;
   width: 70%;
@@ -9,8 +13,26 @@
   margin-right: auto;
 }
 
+#customMarker{
+  width: 18px;
+}
+
+#map{
+  border-top: 1px solid #aa0e05 !important;
+  border-bottom: 1px solid #aa0e05 !important;
+}
+
 #topShelfLounge{
   white-space: nowrap;
+}
+
+#hosts{
+  padding-top: 5%;
+}
+
+
+.center{
+  text-align: center;
 }
 
 .navbar{
@@ -65,4 +87,35 @@
   margin-right: auto;
   width: 100%;
   font-size: 16px;
+}
+
+.ui.secondary.pointing.menu .item:hover{
+  color:#ab0d12 !important;
+}
+
+.ui.secondary.pointing.menu .active.item{
+  color: #ab0d12 !important;
+  border-color: #ab0d12 !important;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  height: $height-footer;
+  background-color: #e1ca86e3;
+}
+
+.footer-link{
+  padding: 0% 5% 5% 5%;
+}
+
+.footer-icon{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.foot{
+  height: 75px;
+  padding-top: 1% !important;
 }

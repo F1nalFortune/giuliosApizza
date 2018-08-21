@@ -13,7 +13,7 @@ const AnyReactComponent = ({ text }) => (
     borderRadius: '100%',
     transform: 'translate(-50%, -50%)'
   }}>
-    <img src={one} alt="Logo" />
+    <img id="customMarker" src={one} alt="Logo" />
   </div>
 );
 
@@ -28,7 +28,7 @@ class Map extends Component {
       lat: 41.341431,
       lng: -72.862487
     },
-    zoom: 14
+    zoom: 15
   };
 
   componentDidMount(){

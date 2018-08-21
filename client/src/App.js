@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './components/Home';
+import Footer from './components/Footer';
 import Menu from './components/Menu';
 import Catering from './components/Catering';
 import Order from './components/Order';
@@ -27,6 +28,7 @@ const App = () => (
              <Route component={NoMatch} />
           </Switch>
         </FetchUser>
+        <Footer />
       </div>
 )
 
