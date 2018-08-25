@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
-import one from './one.jpg';
+import one from '../images/One.jpg';
 
 const AnyReactComponent = ({ text }) => (
   <div style={{
@@ -22,7 +22,7 @@ class Map extends Component {
     marker: {
       lat: 41.341431,
       lng: -72.862487,
-      img_src: './one.jpg'
+      img_src: '../images/One.jpg'
     },
     center: {
       lat: 41.341431,
@@ -33,7 +33,7 @@ class Map extends Component {
 
   componentDidMount(){
     this.setState({
-      marker: {lat: 41.341431, lng: -72.862487, img_src: './one.jpg'},
+      marker: {lat: 41.341431, lng: -72.862487, img_src: '../images/One.jpg'},
     });
   }
 

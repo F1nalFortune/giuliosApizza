@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from 'semantic-ui-react';
-import Map from './Map.js'
+import Map from './Map.js';
+import MapStreet from './MapStreet.js';
 
 
 import {GoogleApiWrapper} from 'google-maps-react';
@@ -30,6 +31,7 @@ class Home extends React.Component{
               <Map/>
             </div>
             <img src="https://lh3.google.com/u/0/d/1bC3_Y2YDoTYnBtAa4ZM_jEJsWU9otLMb=w2560-h868-iv1" alt="homescreen"/>
+            <MapStreet/>
             <div className="container">
                   <span className="style">
                     Lion! We don’t see them, we will never see them. It’s important to use cocoa butter. It’s

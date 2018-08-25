@@ -38,6 +38,7 @@ class NavBar extends Component {
               active={this.props.location.pathname === '/order'}
             />
           </Link>
+
           <Link to='/topShelfLounge' className='three wide column vertical-align'>
             <Menu.Item
               name='topShelfLounge'

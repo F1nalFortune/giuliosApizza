@@ -2,6 +2,10 @@ body{
   background: #e1ca86;
 }
 
+.gm-iv-short-address-description{
+  display: none !important;
+}
+
 #nav-bar{
   padding-bottom: 4px;
   width: 70%;
